@@ -37,7 +37,7 @@ public class MainActivity extends ReactActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
 
-    setContentView(R.layout.activity_main);
+//    setContentView(R.layout.activity_main);
 
     screenRecorderHelper = MainApplication.getApp().getSRHelper();
     screenRecorderHelper.initRecordService(this);
